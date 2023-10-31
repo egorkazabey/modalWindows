@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Document</title>
+</head>
+<body>
+	
+	<div class="modal">
+		<div class="container">
+			<div class="modal__line">
+				<div class="modal__title">Настройки</div>
+				<a href=""><img src="img/close.svg" alt="close" class="modal__close"></a>
+			</div>
+			<div class="modal__configurations">Папка с конфигурациями</div>
+			<input class="modal__config" value="D:\Games\Steam\steamapps\common\Counter-Strike Global Offensive" readonly>
+			<div class="modal__autostart">
+				<div class="modal__text">Автоматически запустить игру</div>
+				<label class="round-checkbox">
+					<input type="checkbox" id="circle-checkbox">
+					<span class="checkmark"></span>
+			</div>
+			<div class="modal__autoclose">
+				<div class="modal__text">Закрыть лоадер после инжекта</div>
+				<label class="round-checkbox">
+					<input type="checkbox" id="circle-checkbox">
+					<span class="checkmark"></span>
+			</div>
+			<div class="modal__autovac">
+				<div class="modal__text">Отключить модуль VAC</div>
+				<label class="round-checkbox">
+					<input type="checkbox" id="circle-checkbox">
+					<span class="checkmark"></span>
+			</div>
+			<div class="modal__launchconfig">
+				<div class="modal__text">Параметры запуска</div>
+			</div>
+			<input class="modal__config" type="text" value="-novid -noaafonts -console -nod3d9ex1 -freq144 -freq 144 -high -nojoy">
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  display: flex;
+  gap: 30px;
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.container {
+  width: 289px;
+  margin: 0 auto;
+}
+
+.modal {
+  width: 335px;
+  height: 303px;
+  border-radius: 7px;
+  background: #0B0B0B;
+  padding-bottom: 21px;
+}
+.modal__line {
+  display: flex;
+  padding-top: 8px;
+  justify-content: center;
+}
+.modal__title {
+  text-align: center;
+  color: #DDD;
+  font-size: 16.5px;
+  font-weight: 600;
+}
+.modal__configurations {
+  margin-top: 21px;
+  color: #9A9A9A;
+  font-size: 10px;
+  font-weight: 500;
+}
+.modal__config {
+  margin-top: 7px;
+  padding-left: 6px;
+  border-radius: 7px;
+  border: 0.5px solid #202020;
+  background: rgba(18, 18, 18, 0.85);
+  -webkit-backdrop-filter: blur(27px);
+          backdrop-filter: blur(27px);
+  width: 289px;
+  height: 25px;
+  font-size: 8px;
+  font-weight: 600;
+  color: #FF6B00;
+}
+.modal__autostart {
+  justify-content: space-between;
+  margin-top: 13px;
+  display: flex;
+  color: #DDD;
+}
+.modal__autoclose {
+  justify-content: space-between;
+  margin-top: 4px;
+  display: flex;
+  color: #9A9A9A;
+}
+.modal__autovac {
+  justify-content: space-between;
+  margin-top: 4px;
+  display: flex;
+  color: #DDD;
+}
+.modal__launchconfig {
+  margin-top: 4px;
+  display: flex;
+  color: #9A9A9A;
+}
+.modal__close {
+  position: relative;
+  top: 5px;
+  right: -101px;
+}
+
+.round-checkbox {
+  cursor: pointer;
+}
+
+.round-checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.checkmark {
+  display: block;
+  top: 0;
+  left: 0;
+  width: 15px;
+  height: 15px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.round-checkbox input:checked ~ .checkmark {
+  border: nonee;
+  background: linear-gradient(90deg, #FF493E 0%, #FF6B00 100%);
+  filter: drop-shadow(0px 0px 10px rgba(255, 122, 0, 0.55));
+}
+
+.round-checkbox input:checked ~ .checkmark::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+  border-radius: 50%;
+}/*# sourceMappingURL=style.css.map */
