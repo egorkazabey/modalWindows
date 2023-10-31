@@ -1,3 +1,3 @@
 # modalWindows
 
-Modal windows for CS GO website
+Modal windows for CS2 website
