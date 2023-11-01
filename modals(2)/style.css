@@ -37,7 +37,8 @@ body {
   font-weight: 500;
 }
 .modal__btn {
-  width: 169px;
+	border: none;
+	width: 169px;
   height: 35px;
   background: linear-gradient(90deg, #FF493E 0%, #FF6B00 100%);
   border-radius: 7px;
@@ -63,6 +64,7 @@ body {
   font-weight: 500;
 }
 .input__input {
+  padding-left: 12px;
   margin-top: 10px;
   width: 232.339px;
   height: 37.178px;
@@ -72,6 +74,13 @@ body {
   -webkit-backdrop-filter: blur(27px);
           backdrop-filter: blur(27px);
   color: #DDD;
+}
+
+.input__icon {
+	position: relative;
+	left: -30px;
+    position: relative;
+    top: 5px;
 }
 .input__img {
   position: relative;
